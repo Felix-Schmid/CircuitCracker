@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Circuit Cracker</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="pictures/Icon.png">
+	<script src="scripts.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-with, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+	<div id="topnav" class="flex">
+		<img src="pictures/Icon.png" alt="game icon" width="60">
+		<div id="title">
+			<div id="titleContent">
+				<h1> Circuit Cracker </h1>
+				by Lorenz Auer & Felix Schmid
+			</div>
+		</div>
+		<div class="mobileHide" style="flex: 1 1 auto"></div>
+		<div class="topnavBtn mobileHide"> <a class="toplink" href="#Download">Download</a> </div>
+		<div class="topnavBtn mobileHide"> <a class="toplink" href="#About">About</a> </div>
+		<div class="topnavBtn mobileHide"> <a class="toplink" href="#FAQs">FAQs</a> </div>
+		<div class="topnavBtn mobileShow"> <button class="menuButton" onClick="toggleMobileMenu();"><img src="icons/menu.png" alt="menu" id="menuIcon"></button> </div>
+	</div>
+	
+	<div id="mobileMenu">
+		<div class="topnavBtn"> <a class="toplink" href="#Download">Download</a> </div>
+		<div class="topnavBtn"> <a class="toplink" href="#About">About</a> </div>
+		<div class="topnavBtn"> <a class="toplink" href="#FAQs">FAQs</a> </div>
+	</div>
+</header>
+
+<main>
+
+<section class="flex" id="Download">
+	<div class="textflex">
+		<h2> Try our game demo! </h2>
+		<p>
+		Circuit Cracker is a 2D puzzle game full of unique mechanics and brain teasers.
+		There are pistons, lasers, conveyor belts, teleporters and a lot of logical circuits.
+		The controls are simple and easy to get a hang of, so you will find yourself playing tricky levels in no time.
+		</p>
+		<p>
+		Currently the game is completely free to play and features more than 80 levels for you to twist your head around. So what are you waiting for?
+		</p>
+		<h4><a href="downloads/CircuitCracker.zip"> Download Circuit Cracker </a></h4>
+	</div>
+	<div class="imageflex" style="margin-left: 16px">
+		<img src="pictures/Demo1.png" alt="in-game image" width="360" class="centeredImage">
+	</div>
+</section>
+
+<section class="flex" id="About">
+	<div class="imageflex" style="margin-right: 16px;">
+		<img src="pictures/Demo2.png" alt="in-game image" width="360" class="centeredImage">
+	</div>
+	<div class="textflex">
+		<h2> About the project </h2>
+		<p>
+		We started development in May 2019 as a hobby project and are happy to finally announce a demo version that everyone can play.
+		With this we are hoping to gather feedback, improve the gameplay and make it more enjoyable for everyone.
+		</p>
+		<p>
+		Our final plan isn't to make a fully offline game though.<br>
+		Inspired by „Mario Maker” our goal is to bring you a level editor, so you can make your own creative levels and upload them for people all across the world to play.
+		Vice versa you will be able to play the most satisfying and beautiful levels made by other players yourself.
+		</p>
+	</div>
+</section>
+
+<section class="flex" id="FAQs">
+	<div class="textflex">
+		<h2> FAQs </h2>
+		<h5> How do I send in feedback? </h5>
+		<p>
+		Simply join our discord server. We are also happy to answer any further questions you might have there. :)
+		</p>
+		<p>
+		<a href="https://discord.gg/QQn74H7"> Join our discord server! </a>
+		</p>
+
+		<h5> What platforms is Circuit Cracker supporting? </h5>
+		<p>
+		Currently the demo is Windows PC only. We are aiming to also make the game playable on Linux PCs and even mobile phones on later stages of development.
+		However the level editor will stay PC only.
+		</p>
+	</div>
+	<div class="imageflex" style="margin-left: 16px">
+		<img src="pictures/Demo3.png" alt="in-game image" width="360" class="centeredImage">
+	</div>
+</section>
+
+<footer>
+	Copyright &copy; 2020 Lorenz Auer & Felix Schmid
+</footer>
+</main>
+
+</body>
+</html>
